@@ -1,0 +1,35 @@
+<!-doctype html>
+<html lang='pt-BR'>
+	<head>
+		<link rel='stylesheet' href='normalize.css'/>
+		<script src='prefix.min.js'></script>
+		<style>
+			.help {
+				background-color: #e7e6c1;
+				width: 300px;
+				border: 2px solid;
+				border-color: #dbd9b8;
+				padding: 10px;				
+				position: relative;
+				margin: auto;
+			}
+			
+			.help::before {
+				border-color: transparent #dbd9b8 transparent transparent;
+				border-style: solid;
+				border-width: 14px;
+				content: '';
+				left: -28px;
+				margin-top: -14px;
+				position: absolute;
+				top: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<p class='help'>
+			Preencha o campo com um e-mail válido, assim poderemos entrar em contato com você
+			para informar o resultado do nosso concurso.
+		</p>
+	</body>
+</html>
