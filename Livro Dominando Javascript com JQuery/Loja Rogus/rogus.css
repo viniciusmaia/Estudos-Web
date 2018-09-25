@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: #292929;
+	width: 100%;
+	border: 0;
+	height: 70px;
+	color: #FFF;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+
+header::after{
+	content: '';
+	display: inline-block;
+}
+
+header h1{
+	height: 100%;
+	padding-left: 5%;
+	width: 960px;
+	font-family: export, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+header h1::before{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+
