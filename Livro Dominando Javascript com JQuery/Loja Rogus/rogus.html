@@ -1,6 +1,9 @@
 <html>
 	<head>
 		<link rel='stylesheet' href='rogus.css'>
+		<link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src='Bootstrap/js/bootstrap.min.js'></script>
 		<title>Rogus - Carrinho de compras</title>
 	</head>
 	<body>
@@ -9,8 +12,38 @@
 		</header>
 		<section class="carrinho">
 			<h1>Carrinho de compras</h1>
-			<div class="card">
-				
+			<div class="card" style="height: 500px">
+				<section>
+					<article class="row">
+						<div class="col-md-1">
+							<img src="https://cdn.gbposters.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/n/i/nirvana-nevermind-maxi-poster-1.11.jpg"
+								 class="img-cd"/>
+						</div>
+						<div class="info-cd col-md-4">							
+							<label class="titulo-item">Nevermind - Nirvana</label>
+							<br/>
+							<div class="row">
+								<input type="checkbox" value="embalarpresente" class="item-embalar"> 
+								<label class="texto-embalar">Embalar para presente</label>
+							</div>										
+							<div class="row">
+								<i class="fa fa-trash remove-item-cd"></i>
+								<a href="#" class="link-remove-item">Remover item</a>
+							</div>							
+						</div>	
+						<div class="col-md-2 text-right">
+							<label class="texto-preco">R$ 29,00</label>								
+						</div>
+						<div class="col-md-2 text-right">
+							<input type="number" class="quantidade-item">		
+						</div>
+						<div class="col-md-2 text-right">
+							<label class="texto-preco">R$ 29,00</label>								
+						</div>
+						<div class="col-md-2 text-right">
+						</div>
+					</article>
+				</section>
 			</div>
 		</section>
 		
